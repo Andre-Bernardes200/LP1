@@ -27,7 +27,6 @@ public class Exercicio13 {
     public double calculaMedia(){
         double media = (listaNotas.get(0) * 2 + listaNotas.get(1) * 3 + listaNotas.get(2)  * 3)/10;
         return  media;
-
     }
 
     public static void main(String[] args){
