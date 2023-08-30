@@ -5,7 +5,6 @@ public class Exercicio13 {
     Scanner input = new Scanner (System.in);
 
     // Atributos
-
     private String nome;
     private ArrayList<Double> listaNotas = new ArrayList<Double>();
 
