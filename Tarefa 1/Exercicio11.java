@@ -1,17 +1,13 @@
 import java.util.Scanner;
 
 public class Exercicio11 {
-
     // Atributos da classe.
     private String name;
-
     //Método construtor
     public Exercicio11 (String name) {
         this.name = name;
     }
-
     // Métodos da classe.
-
     public String getName(){
         return this.name;
     }

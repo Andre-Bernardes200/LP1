@@ -26,6 +26,7 @@ public class Exercicio14 {
         Exercicio14 num = new Exercicio14();
 
         num.maiorOuMenor();
+
         System.out.println("Já que o número digitado foi " + num.getNumero());
 
     }

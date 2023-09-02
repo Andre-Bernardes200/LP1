@@ -2,14 +2,11 @@ public class Exercicio12 {
 
     //Declarado atributo
     private double grausCelsius;
-
     // Construtor
     public Exercicio12 (double grausCelsius){
         this.grausCelsius = grausCelsius;
     }
-
     //Criando método getter e setter
-
     public double getGrausCelsius(){
         return this.grausCelsius;
     }
@@ -23,11 +20,9 @@ public class Exercicio12 {
     }
 
     public static void main(String [] args){
-        Exercicio12 temp = new Exercicio12(100);
+        Exercicio12 temp = new Exercicio12(33);
 
-        System.out.println(temp.getGrausCelsius());
-
-        System.out.println("A temperatura de " + temp.getGrausCelsius() + "Cº para fahrenheit é " + temp.transformaGrausFahren());
+        System.out.println("A temperatura de " + temp.getGrausCelsius() + " Cº para fahrenheit é " + temp.transformaGrausFahren());
 
     }
 }
