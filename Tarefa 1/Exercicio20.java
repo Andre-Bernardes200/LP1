@@ -6,6 +6,7 @@ public class Exercicio20 {
     // Declarando os atributos
     private ArrayList<Double> listaNumeros = new ArrayList<Double>();
     private Scanner input = new Scanner(System.in);
+    private double valor;
 
     // Criando os métodos da classe
     public ArrayList<Double> lista (){
@@ -18,7 +19,9 @@ public class Exercicio20 {
     }
     public ArrayList<Double> ordemCrescente(){
         if(listaNumeros.get(0) > listaNumeros.get(1)){
+            valor = listaNumeros.get(0);
             listaNumeros.set(0,listaNumeros.get(1));
+            listaNumeros.set(1,valor);
             return  listaNumeros;
 
         }else if(listaNumeros.get(0) < listaNumeros.get(1)){
@@ -32,7 +35,9 @@ public class Exercicio20 {
         if(listaNumeros.get(0) > listaNumeros.get(1)){
             return listaNumeros;
         }else if(listaNumeros.get(0) < listaNumeros.get(1)){
+            valor = listaNumeros.get(1);
             listaNumeros.set(1,listaNumeros.get(0));
+            listaNumeros.set(0,valor);
             return listaNumeros;
         }else{
             listaNumeros.clear();;
