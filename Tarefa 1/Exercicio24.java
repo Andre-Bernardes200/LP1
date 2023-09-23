@@ -8,7 +8,6 @@ public class Exercicio24 {
     private double valorTotalVendas;
     private double comissao;
 
-
     // Crindo métodos
     private double valorComissao(double valorTotalVendas){
         if(valorTotalVendas > 1500){
